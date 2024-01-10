@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 25px;
+    row-gap: 75px;
+}
+
+@media (max-width: 712px){
+    .container{
+        justify-content: center;
+        align-items: start;
+        gap: 40px;
+    }
+}

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 100%
+}
+
+body {
+    -ms-overflow-style: none;
+    background: #fafafa;
+    color: #111517;
+    font-family: Nunito Sans;
+    scrollbar-width: none
+}
+
+.dark-mode {
+    background: #202c36;
+    color: #fff
+}
+
+.dark-mode header {
+    background: #2b3844
+}
+
+.dark-mode header .header_container a {
+    color: #fff
+}
+
+.dark-mode main button {
+    background: #2b3844;
+    color: #fff
+}
+
+.dark-mode main form .search-bar {
+    background: #2b3844
+}
+
+.dark-mode main form .search-bar svg path {
+    fill: #fff
+}
+
+.dark-mode main form .search-bar input {
+    color: #fff
+}
+
+.dark-mode main form .search-bar input::-webkit-input-placeholder {
+    color: #fff
+}
+
+.dark-mode main form .search-bar input::placeholder {
+    color: #fff
+}
+
+.dark-mode main form .select-region {
+    background-color: #2b3844;
+    color: #fff
+}
+
+.dark-mode main form .select-region svg path {
+    fill: #fff
+}
+
+.dark-mode main form .select-region ul {
+    background: #2b3844;
+   
+}
+.dark-mode main form .select-region li {
+    color: #fff;
+   
+}
+.dark-mode main .container .card {
+    background: #2b3844;
+    color: #fff
+}
+.dark-mode main .container .card .card_text .info li{
+    color: #fafafa;
+}
+.dark-mode main .container .card .no-photo {
+    background: #172027;
+    color: hsla(0,0%,75%,.1)
+}
+
+.dark-mode main .info-modal .modal-container {
+  background: #172027;
+  color: #fafafa;
+}
+
+.dark-mode main .info-modal .modal-container .close-modal  {
+   fill: #fafafa;
+}
+
+.dark-mode main .info-modal .modal-container .country-flag .no-photo {
+    background: #172027;
+    color: hsla(0,0%,75%,.1)
+}
+
+.dark-mode main .info-modal .modal-container  .country-info {
+    color: #fff;
+    
+}
+.dark-mode main .info-modal .modal-container  .country-info .ul li {
+    color: #fff;
+    
+}
+.dark-mode main .info-modal .modal-container .country-info .border-countries span {
+    background: #2b3844
+}

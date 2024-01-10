@@ -1,0 +1,25 @@
+main{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+
+    padding: 0 80px;
+}
+.show-more{
+        width: 100px;
+        height: 35px;
+        
+        outline: none;
+        cursor: pointer;
+    
+        font-family: 'Nunito Sans';
+        font-size: 20px;
+        color: #111517;
+        background-color: #fff;
+        border: none;
+        margin: 50px auto 0;
+        
+}
+.hide-button{
+    display: block;
+}
